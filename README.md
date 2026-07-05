@@ -33,9 +33,8 @@
 | Feature              | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
 | 🔐 **Authentication** | Secure Login and Registration using Firebase Auth (Email/Password & Google). |
-| 📅 **Event Creation** | Create new events with category selection, date/time, and location.         |
-| 🔍 **Event Discovery**| Browse events by categories like Sport, Birthday, Meeting, etc.             |
-| 📍 **Google Maps**    | View and select event locations using Google Maps integration.              |
+| 📅 **Event Creation** | Create new events with category selection, date/time, and description.      |
+| 🔍 **Event Discovery**| Browse events by categories like Sport, Birthday, Book club, Meeting, etc.  |
 | 🌍 **Localization**   | Full support for Arabic and English languages using Easy Localization.      |
 | 🌙 **Dark Mode**      | Dynamic theme switching (Light/Dark) to suit user preference.               |
 | 💾 **Local Storage**  | Persistent user settings (language, theme) powered by Hive.                 |
@@ -45,28 +44,27 @@
 
 - **Splash Screen** — Animated entry point with branding.
 - **Onboarding Screen** — Introduction to app features for new users.
-- **Auth Screens** — Login, Register, and Forget Password for user management.
-- **Home Screen** — Main dashboard featuring event tabs (All, My Events, etc.).
-- **Create Event** — Dedicated form to publish new events.
-- **Event Details** — Full view of event information with join functionality.
+- **Auth Screens** — Login and Register screens for user management.
+- **Home Screen** — Main dashboard featuring event categories (All, Sport, Book club, Birthday, Meeting, Exhibition).
+- **Create Event** — Dedicated form to publish new events with category-specific headers.
+- **Profile Screen** — User settings for theme, language, and logout.
 
 ## 📸 Screenshots
 
-| Onboarding | Home | Create Event | Event Details |
+| Splash | Onboarding | Login | Register |
 | :---: | :---: | :---: | :---: |
-| <img width="200" height="400" alt="onboarding" src="https://github.com/user-attachments/assets/c3f69094-3a21-4195-8879-0925b7d3a709" /> | <img width="200" height="400" alt="home" src="https://github.com/user-attachments/assets/eeaaf2b0-a3c1-4469-a0b3-6d333c85f424" /> | <img width="200" height="400" alt="create event" src="https://github.com/user-attachments/assets/3da75d47-8299-4af0-a0f2-a5d73248e058" /> | <img width="200" height="400" alt="details" src="https://github.com/user-attachments/assets/e23a89ac-41cb-4ebd-ac5c-c1c7e88efb4f" /> |
+| <img width="200" height="400" alt="splash" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/splash.png?raw=true" /> | <img width="200" height="400" alt="onboarding" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/onboarding.png?raw=true" /> | <img width="200" height="400" alt="login" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/login.png?raw=true" /> | <img width="200" height="400" alt="register" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/register.png?raw=true" /> |
 
-| Login | Profile | Maps | Dark Mode |
+| Home | Create Event | Favorites | Profile |
 | :---: | :---: | :---: | :---: |
-| <img width="200" height="400" alt="login" src="https://github.com/user-attachments/assets/400439bb-46ea-4bdb-a774-ec7509e5ce82" /> | <img width="200" height="400" alt="profile" src="https://github.com/user-attachments/assets/d1a827e6-4a63-48b4-8e2a-1d35f3c48586" /> | <img width="200" height="400" alt="maps" src="https://github.com/user-attachments/assets/bae74cd3-f424-4685-825c-13d26870ea81" /> | <img width="200" height="400" alt="dark mode" src="https://github.com/user-attachments/assets/e681fa00-7a3b-4749-ae38-82dd52087389" /> |
+| <img width="200" height="400" alt="home" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/home.png?raw=true" /> | <img width="200" height="400" alt="create event" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/create_event.png?raw=true" /> | <img width="200" height="400" alt="favorites" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/favorites.png?raw=true" /> | <img width="200" height="400" alt="profile" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/profile.png?raw=true" /> |
 
 ## 🛠 Tech Stack
 
 - **Framework:** [Flutter](https://flutter.dev/)
-- **Backend:** [Firebase](https://firebase.google.com/) (Auth, Firestore, Storage)
+- **Backend:** [Firebase](https://firebase.google.com/) (Auth, Firestore)
 - **Database:** [Hive](https://pub.dev/packages/hive) & [Hive Flutter](https://pub.dev/packages/hive_flutter)
 - **State Management:** [Provider](https://pub.dev/packages/provider)
-- **Maps:** [Google Maps Flutter](https://pub.dev/packages/google_maps_flutter)
 - **Localization:** [Easy Localization](https://pub.dev/packages/easy_localization)
 
 ## 🚀 Getting Started
@@ -111,16 +109,16 @@ lib/
 
 ## 🎨 Assets
 
-- Custom event category images (Sport, Birthday, etc.).
+- Custom event category images (Sport, Birthday, Book club, Meeting, Exhibition).
 - Multi-language translation files in `assets/translations`.
 - Integrated Google Fonts (**Inter**, etc.).
 
 ## 🗺 Roadmap
 
+- [ ] Google Maps integration for event locations
 - [ ] Social sharing of events
 - [ ] In-app chat for event participants
 - [ ] Push notifications for upcoming events
-- [ ] Advanced event filtering and search
 
 ## 🤝 Contributing
 
