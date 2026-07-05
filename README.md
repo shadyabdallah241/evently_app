@@ -53,11 +53,11 @@
 
 | Splash | Onboarding | Login | Register |
 | :---: | :---: | :---: | :---: |
-| <img width="200" height="400" alt="splash" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/splash.png?raw=true" /> | <img width="200" height="400" alt="onboarding" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/onboarding.png?raw=true" /> | <img width="200" height="400" alt="login" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/login.png?raw=true" /> | <img width="200" height="400" alt="register" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/register.png?raw=true" /> |
+| <img width="200" height="400" alt="splash" src="https://github.com/user-attachments/assets/3bd9018d-7973-4e8b-9e8a-bbc89e7d7210" /> | <img width="200" height="400" alt="onboarding" src="https://github.com/user-attachments/assets/22c97cb4-f8ac-4011-93ad-91e5b87c7cea" /> | <img width="200" height="400" alt="login" src="https://github.com/user-attachments/assets/636f86d8-a537-49f2-8423-f6e7021cc71d" /> | <img width="200" height="400" alt="register" src="https://github.com/user-attachments/assets/51308300-8ec7-4958-be95-ee8d560be62f" /> |
 
 | Home | Create Event | Favorites | Profile |
 | :---: | :---: | :---: | :---: |
-| <img width="200" height="400" alt="home" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/home.png?raw=true" /> | <img width="200" height="400" alt="create event" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/create_event.png?raw=true" /> | <img width="200" height="400" alt="favorites" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/favorites.png?raw=true" /> | <img width="200" height="400" alt="profile" src="https://github.com/shadyabdallah241/evently_app/blob/main/screenshots/profile.png?raw=true" /> |
+| <img width="200" height="400" alt="home" src="https://github.com/user-attachments/assets/8bc96f07-18f4-41f2-b52b-7665bc1e9b9d" /> | <img width="200" height="400" alt="create event" src="https://github.com/user-attachments/assets/0e7751fc-4b3c-456d-abe5-d59c9cb46b29" /> | <img width="200" height="400" alt="favorites" src="https://github.com/user-attachments/assets/0c856f0b-5335-49aa-ae8b-d4cde38ecf70" /> | <img width="200" height="400" alt="profile" src="https://github.com/user-attachments/assets/aeb5b1a3-c507-4912-9c7c-d1224bff806c" /> |
 
 ## 🛠 Tech Stack
 
